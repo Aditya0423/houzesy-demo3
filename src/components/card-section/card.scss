@@ -1,0 +1,42 @@
+.card{
+  background-color: white;
+  box-sizing:           border-box;
+  width:                280px;
+  height:               250px;
+  box-shadow:           0 2px 5px #ccc;
+  border-radius:        10px;
+  transition-duration:  .6s;
+  &:hover{
+    transform:          scale(1.1);
+  }
+}
+.top{
+  width:                100%;
+  height:               210px;
+  border-radius:        10px 10px 0 0;
+  transition-duration:  .6s;
+}
+ 
+.profileImg{
+  border-radius:        10px 10px 0 0;
+  width:                100%;
+  height:               100%;
+}
+
+.name{   
+  font-family:          'Montserrect', sans-serif;
+  text-align:           center;
+  width:                100%;
+  height:               40px;
+  font-weight:          bold;
+  color:              black;
+  box-sizing:           border-box;
+ padding-top:           10px;
+}
+
+p{
+  border-radius:        0 0 10px 10px;
+  margin:               0;
+  width:                100%;
+  height:               100%;
+}
