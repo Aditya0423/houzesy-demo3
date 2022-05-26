@@ -1,0 +1,12 @@
+.dotButton{
+   margin: 10px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: white;
+   border: none;
+   
+   &:hover{
+     background-color: black;
+   }
+ }
